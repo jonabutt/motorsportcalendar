@@ -1,0 +1,42 @@
+.toggle-button-wrapper {
+  position: relative;
+  display: flex;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background: #000000;
+
+  button {
+    flex: 1;
+    border: 0;
+    background: none;
+    color: #ffffff;
+    cursor: pointer;
+    z-index: 2;
+    &.selected {
+      color: #000000;
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  .toggleButtonSelection {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0%;
+    background: #ffffff;
+    overflow: hidden;
+    border-radius: 10px;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2) inset;
+
+    &.selected-first {
+      left: 0%;
+      transition: all 0.5s ease-in-out;
+    }
+    &.selected-second {
+      left: 50%;
+      transition: all 0.5s ease-in-out;
+    }
+  }
+}

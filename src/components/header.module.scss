@@ -1,0 +1,34 @@
+$main-color: #63e6ce;
+
+.header {
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .website-title-wrapper {
+    background-color: $main-color;
+    max-width: 800px;
+    transform: skew(-20deg);
+    text-align: center;
+    padding: 8px 14px;
+    @media (min-width: 321px) {
+      padding: 10px 24px;
+    }
+    .website-title {
+      font-size: 22px;
+      font-weight: 600;
+      transform: skew(20deg);
+      display: block;
+      text-decoration: none;
+      color: #252525;
+      @media (min-width: 321px) {
+        font-size: 26px;
+      }
+    }
+  }
+  .website-desc {
+    padding: 10px;
+    color: #4d4d4d;
+  }
+}

@@ -1,0 +1,121 @@
+$border-color: #63e6ce;
+.race-wrapper:last-child {
+  border-bottom: 2px solid $border-color;
+}
+.race-wrapper {
+  border-top: 2px solid $border-color;
+  flex: 1;
+  width: 100%;
+  padding: 12px 5px;
+  @media (min-width: 1100px) {
+    width: 1000px;
+  }
+  .expander {
+    width: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .expanderExpanded {
+    width: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.4s linear;
+
+    transform: rotate(90deg);
+  }
+  .race {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+
+    .date {
+      width: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      @media (min-width: 376px) {
+        width: 100px;
+      }
+      .date_text {
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 600;
+        @media (min-width: 376px) {
+          font-size: 18px;
+        }
+      }
+      .time_text {
+        color: #5f5f5f;
+        font-size: 15px;
+        @media (min-width: 376px) {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .icon {
+      width: 60px;
+      display: flex;
+      cursor: pointer;
+      height: 100%;
+      @media (min-width: 426px) {
+        width: 80px;
+      }
+      svg {
+        align-items: center;
+        max-width: 80px !important;
+        height: inherit;
+      }
+    }
+    .race-detail {
+      flex: 1;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      padding-left: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.02rem;
+      word-spacing: 0.1rem;
+
+      .race-name {
+        font-size: 17px;
+        font-weight: 600;
+        @media (min-width: 321px) {
+          font-size: 20px;
+        }
+      }
+      .race-sub-details {
+        font-size: 14px;
+        @media (min-width: 321px) {
+          font-size: 16px;
+        }
+        .race-circuit {
+          font-size: 14px;
+          @media (min-width: 321px) {
+            font-size: 16px;
+          }
+        }
+        .race-location {
+          color: #919191;
+          font-size: 14px;
+          display: block;
+          padding: 0;
+          @media (min-width: 426px) {
+            display: inline-block;
+            font-size: 16px;
+            padding-left: 12px;
+          }
+        }
+      }
+    }
+  }
+  .expanded-race-wrapper {
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+}
