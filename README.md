@@ -1,54 +1,54 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# MotorSportCalender.NET
 
-## 🚀 Quick start
+This project was developed as a side project using gatsby. Gatsby is a static site generator using reactjs.
+This website shows information about upcoming races.
 
-1.  **Create a Gatsby site.**
+See the [DEMO](https://motorsportcalendar.net/) here.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+# Summary
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+- [Features](#features)
+- [Technologies](#technologies)
+- [Prerequisites](#prerequisites)
+- [Installing and running](#installing-and-running)
+- [Author](#author)
 
-2.  **Start developing.**
+#### Features
 
-    Navigate into your new site’s directory and start it up.
+- Load upcoming races in the next 30 days.
+- On click on the icon show all the races of that racing category.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+#### Technologies
 
-3.  **Open the code and start customizing!**
+- ReactJS
+- Gatsby
 
-    Your site is now running at http://localhost:8000!
+### Prerequisites
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+To run this project you need:
+[NodeJs](https://nodejs.org/en/download/)
 
-4.  **Learn more**
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### Installing and running
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Clone the project:
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```
+git clone https://github.com/jonabutt/motorsportcalendar
+```
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Install the depedencies:
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```
+npm install
+```
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Run the application:
 
-## 🚀 Quick start (Gatsby Cloud)
+```
+npm start
+```
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+## Author
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+* **Jonathan Buttigieg** - [Linkedin](https://www.linkedin.com/in/jonbuttigieg/)
